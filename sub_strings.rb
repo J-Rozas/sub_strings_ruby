@@ -3,7 +3,7 @@ def substrings(string, array)
     string.downcase.split(" ").each do |element|
         array.each do |thing|
            if element.include?(thing)
-                final[thing] +=1
+                final[thing] += 1
            end
         end
     end
